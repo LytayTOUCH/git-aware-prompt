@@ -43,7 +43,7 @@ source "${GITAWAREPROMPT}/main.sh"
 Edit your `~/.bashrc` and add the following to the buttom:
 
 ```bash
-export PS1="\u@\h \w \[$bldred\]\$git_branch\[$bldylw\]\$git_dirty\[$txtrst\]\$ "
+export PS1="\[$bldgrn\]\u@\h \[$txtrst\]\w \[$bldred\]\$git_branch\[$bldylw\]\$git_dirty\[$txtrst\]\$ "
 ```
 
 ## Configuring
